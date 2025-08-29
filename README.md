@@ -49,7 +49,7 @@ SECURELOG is a comprehensive security analysis tool designed specifically for an
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/securelog.git
+git clone https://github.com/Zeeshan01001/securelog-fresh.git
 cd securelog
 
 # Install dependencies
@@ -233,7 +233,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 # Clone and setup development environment
-git clone https://github.com/yourusername/securelog.git
+git clone https://github.com/Zeeshan01001/securelog-fresh.git
 cd securelog
 pip install -r requirements-dev.txt
 python -m pytest tests/
@@ -245,10 +245,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- **Documentation**: [Wiki](https://github.com/yourusername/securelog/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/securelog/issues)
+- **Documentation**: [Wiki](https://github.com/Zeeshan01001/securelog-fresh/wiki)
+- **Issues**: [GitHub Issues](https://github.com/Zeeshan01001/securelog-fresh/issues)
 - **Security**: [Security Policy](SECURITY.md)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/securelog/discussions)
+- **Discussions**: [GitHub Discussions](https://github.com/Zeeshan01001/securelog-fresh/discussions)
 
 ## 🙏 Acknowledgments
 
