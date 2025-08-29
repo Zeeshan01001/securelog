@@ -31,7 +31,7 @@ SECURELOG is a comprehensive security analysis tool designed specifically for an
 ### 📊 **Advanced Reporting**
 
 - **Multi-format Export**: JSON, CSV, HTML, PDF reports
-- **Risk Scoring**: Weighted risk assessment (0-100 scale)
+- **Realistic Risk Scoring**: Improved proportional risk assessment (0-100 scale) with logarithmic scaling
 - **Executive Summaries**: High-level security overviews
 - **Compliance Reports**: PCI-DSS, SOX, GDPR, HIPAA, ISO27001 support
 - **Threat Intelligence**: Correlation with threat feeds and IOCs
@@ -73,17 +73,31 @@ SECURELOG features a beautiful retro computer-style command-line interface with 
 
 ### Analysis Results Example
 
-Here's what SECURELOG looks like when analyzing a log file with security issues:
+Here's what SECURELOG looks like when analyzing different types of log files:
 
-![SECURELOG Analysis Results](securelog-analysis-final.png)
+### 🔍 Vulnerabilities Found (Improved Risk Algorithm)
 
-**Real Analysis Results:**
+![SECURELOG Analysis with Vulnerabilities](securelog-vulnerabilities-found.png)
+<!-- Screenshot command: python3 -m src.url_analyzer analyze medium_test_log.txt -->
 
-- **7 vulnerabilities detected** in sample log file
-- **26.0/100 risk score** with medium risk classification
+**Analysis Results:**
+- **3 vulnerabilities detected** (1 HIGH, 2 MEDIUM severity)
+- **74.2/100 risk score** - realistic proportional scoring
 - **Color-coded status indicators** for immediate risk assessment
-- **Professional logging** with detailed analysis steps
-- **Executive summary** for quick decision-making
+- **Professional retro-styled interface** with GEMINI colors
+- **Executive summary** with actionable recommendations
+
+### ✅ Clean Scan Results
+
+![SECURELOG Clean Scan](securelog-clean-scan.png)
+<!-- Screenshot command: python3 -m src.url_analyzer analyze clean_test_log.txt -->
+
+**Clean Analysis Results:**
+- **0 vulnerabilities detected** in clean log file
+- **0.0/100 risk score** - perfect clean score
+- **Green status indicators** showing all-clear
+- **Detailed logging** confirms no security issues found
+- **Professional analysis** with enterprise-grade accuracy
 
 ### Basic Usage
 
